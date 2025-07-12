@@ -25,10 +25,6 @@ And boom 💥 — Task created.
 
 ---
 
-## 🖼️ Demo Screenshots
-
-> Include 2–3 screenshots here if possible  
-> For example: Chat screen, Task screen, Completed task
 
 ---
 
