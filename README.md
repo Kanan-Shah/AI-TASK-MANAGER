@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# ✨ AI TaskGenie — Your Smart Productivity Partner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> 🎓 Final Year Project | React + Node.js | AI-Integrated Task Manager
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 What is TaskGenie?
 
-### `npm start`
+TaskGenie is a modern, AI-powered productivity web app that turns **natural language** into actionable **task commands**. Just chat like:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> “Add a task to finish report by Friday”
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+And boom 💥 — Task created.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💡 Key Features
 
-### `npm run build`
+✅ **Chat with AI**: Talk to TaskGenie to create, update, or delete tasks  
+✅ **Smart Parsing**: Fake AI logic intelligently converts plain English to JSON actions  
+✅ **Modern UI**: Clean, mobile-friendly React UI with animation and tabs  
+✅ **Offline Capable**: No OpenAI/Gemini needed – works entirely with local logic  
+✅ **Beautiful UX**: Designed with attention to detail using `framer-motion` and responsive CSS  
+✅ **Expandable**: Easily switch to real AI later (OpenAI / Gemini ready)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🖼️ Demo Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> Include 2–3 screenshots here if possible  
+> For example: Chat screen, Task screen, Completed task
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🧠 How It Works
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```mermaid
+graph TD
+A[User Chat] --> B[Local AI Parser]
+B --> C{Action Type}
+C -->|createTask| D[Add Task to List]
+C -->|updateTask| E[Mark Task as Complete]
+C -->|deleteTask| F[Remove Task from List]
