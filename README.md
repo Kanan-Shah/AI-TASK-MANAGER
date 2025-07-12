@@ -1,6 +1,6 @@
 # ✨ AI TaskGenie — Your Smart Productivity Partner
 
-> 🎓 Final Year Project | React + Node.js | AI-Integrated Task Manager
+> 🎓 React + Node.js | AI-Integrated Task Manager
 
 ---
 
